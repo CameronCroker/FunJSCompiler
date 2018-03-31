@@ -1,0 +1,78 @@
+[0m[[0minfo[0m] [0m[32mExecTests in library/src/funjs/ExecTests:[0m[0m
+[0m[[0minfo[0m] [0m[32m- an integer expression evaluates to the correct result[0m[0m
+[0m[[0minfo[0m] [0m[32m- an addition expression evaluates to the correct result[0m[0m
+[0m[[0minfo[0m] [0m[32m- a true expression evaluates to the correct result[0m[0m
+[0m[[0minfo[0m] [0m[32m- a false expression evaluates to the correct result[0m[0m
+[0m[[0minfo[0m] [0m[32m- a subtraction expression evaluates to the correct result[0m[0m
+[0m[[0minfo[0m] [0m[32m- a multiplication expression evaluates to the correct result[0m[0m
+[0m[[0minfo[0m] [0m[32m- a division expression evaluates to the correct result[0m[0m
+[0m[[0minfo[0m] [0m[32m- an equality expression evaluates to the correct result (true)[0m[0m
+[0m[[0minfo[0m] [0m[32m- an equality expression evaluates to the correct result (false)[0m[0m
+[0m[[0minfo[0m] [0m[32m- a less-than expression evaluates to the correct result (true)[0m[0m
+[0m[[0minfo[0m] [0m[32m- a less-than expression evaluates to the correct result (false)[0m[0m
+[0m[[0minfo[0m] [0m[32m- a multi-operator expression evaluates to the correct result[0m[0m
+[0m[[0minfo[0m] [0m[32m- a true less-than conditional expression evaluates to the correct result[0m[0m
+[0m[[0minfo[0m] [0m[32m- a false less-than conditional expression evaluates to the correct result[0m[0m
+[0m[[0minfo[0m] [0m[32m- a false equal conditional expression evaluates to the correct result[0m[0m
+[0m[[0minfo[0m] [0m[32m- a true equal conditional expression evaluates to the correct result[0m[0m
+[0m[[0minfo[0m] [0m[32m- a true literal conditional expression evaluates to the correct result[0m[0m
+[0m[[0minfo[0m] [0m[32m- a single def let evaluates to the correct result[0m[0m
+[0m[[0minfo[0m] [0m[32m- a multiple def let evaluates to the correct result (use first def)[0m[0m
+[0m[[0minfo[0m] [0m[32m- a multiple def let evaluates to the correct result (use second def)[0m[0m
+[0m[[0minfo[0m] [0m[32m- a multiple def let evaluates to the correct result (use both defs)[0m[0m
+[0m[[0minfo[0m] [0m[32m- a let with a calculation evaluates to the correct result[0m[0m
+[0m[[0minfo[0m] [0m[32m- a where with a single function definition evaluates to the correct result[0m[0m
+[0m[[0minfo[0m] [0m[32m- a single function where evaluates to the correct result[0m[0m
+[0m[[0minfo[0m] [0m[32m- a multiple function where evaluates to the correct result (use first fun)[0m[0m
+[0m[[0minfo[0m] [0m[32m- a multiple function where evaluates to the correct result (use second fun)[0m[0m
+[0m[[0minfo[0m] [0m[32m- a multiple function where evaluates to the correct result (use both funs)[0m[0m
+[0m[[0minfo[0m] [0m[32m- backward reference is evaluated correctly (same group)[0m[0m
+[0m[[0minfo[0m] [0m[32m- call with call argument is evaluated correctly[0m[0m
+[0m[[0minfo[0m] [0m[32m- a function using a val is evaluated correctly (1)[0m[0m
+[0m[[0minfo[0m] [0m[32m- a function using a val is evaluated correctly (2)[0m[0m
+[0m[[0minfo[0m] [0m[32m- a function using def def val is evaluated correctly[0m[0m
+[0m[[0minfo[0m] [0m[32m- backward reference is evaluated correctly[0m[0m
+[0m[[0minfo[0m] [0m[32m- an inner binding is evaluated correctly (val)[0m[0m
+[0m[[0minfo[0m] [0m[32m- an inner binding is evaluated correctly (fun)[0m[0m
+[0m[[0minfo[0m] [0m[32m- an outer binding is evaluated correctly (outer accces, val)[0m[0m
+[0m[[0minfo[0m] [0m[32m- an outer binding is evaluated correctly (outer accces, fun)[0m[0m
+[0m[[0minfo[0m] [0m[32m- an overridden outer binding is evaluated correctly (val-val)[0m[0m
+[0m[[0minfo[0m] [0m[32m- an overridden outer binding is evaluated correctly (fun-val)[0m[0m
+[0m[[0minfo[0m] [0m[32m- an overridden outer binding is evaluated correctly (val-fun)[0m[0m
+[0m[[0minfo[0m] [0m[32m- an overridden outer binding is evaluated correctly (fun-fun)[0m[0m
+[0m[[0minfo[0m] [0m[32m- a basic object[0m[0m
+[0m[[0minfo[0m] [0m[32m- a more complex object[0m[0m
+[0m[[0minfo[0m] [0m[31m- object dereferencing *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  scala.MatchError: DeRefExp(IdnUse(v),x) (of class funjs.FunJSTree$DeRefExp)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at funjs.Translator$.translateExpression(Translator.scala:38)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at funjs.Translator$.translateExpression(Translator.scala:85)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at funjs.Translator$.translateExpression(Translator.scala:57)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at funjs.Translator$.translate(Translator.scala:24)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at funjs.ExecTests.execTest(ExecTests.scala:24)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at funjs.ExecTests$$anonfun$44.apply$mcV$sp(ExecTests.scala:415)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at funjs.ExecTests$$anonfun$44.apply(ExecTests.scala:415)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at funjs.ExecTests$$anonfun$44.apply(ExecTests.scala:415)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer$$anonfun$apply$1.apply$mcV$sp(Transformer.scala:22)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf$class.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0minfo[0m] [0m[31m  ...[0m[0m
+[0m[[0minfo[0m] [0m[31m- dereferencing in a more complex setting - this one won't work under matt's type rules for objects *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  scala.MatchError: DeRefExp(IdnUse(x),y) (of class funjs.FunJSTree$DeRefExp)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at funjs.Translator$.translateExpression(Translator.scala:38)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at funjs.Translator$.translateExpression(Translator.scala:85)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at funjs.Translator$.translateExpression(Translator.scala:57)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at funjs.Translator$.translateExpression(Translator.scala:85)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at funjs.Translator$.translateExpression(Translator.scala:57)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at funjs.Translator$.translate(Translator.scala:24)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at funjs.ExecTests.execTest(ExecTests.scala:24)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at funjs.ExecTests$$anonfun$45.apply$mcV$sp(ExecTests.scala:419)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at funjs.ExecTests$$anonfun$45.apply(ExecTests.scala:419)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at funjs.ExecTests$$anonfun$45.apply(ExecTests.scala:419)[0m[0m
+[0m[[0minfo[0m] [0m[31m  ...[0m[0m
+[0m[[0minfo[0m] [0m[32m- translate 3 < 4[0m[0m
+[0m[[0minfo[0m] [0m[32m- translate x[0m[0m
+[0m[[0minfo[0m] [0m[32m- translate if(true) then 3 else 4[0m[0m
+[0m[[0minfo[0m] [0m[32m- translate (f 3)[0m[0m
+[0m[[0minfo[0m] [0m[32m- translate (x + 4) where {int x: 3}[0m[0m
+[0m[[0minfo[0m] [0m[32m- translate (f 4) where {int -> int f : fun(int x){2 * x}}[0m[0m
+[0m[[0minfo[0m] [0m[32m- translate ((f 4) + (g 4)) where {int -> int f: fun(int x){x+1}; int -> int g : fun(int y){y * 2}}[0m[0m
+[0m[[0minfo[0m] [0m[32m- translate ((f z) + (g 4)) where {int w : 7; int -> int f : fun(int x){x+1}; int -> int g : fun(int y){y *2}; int z : f w}[0m[0m

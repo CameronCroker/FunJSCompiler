@@ -1,0 +1,49 @@
+[0m[[0minfo[0m] [0m[32mTypeTests in library/src/funjs/TypeTests:[0m[0m
+[0m[[0minfo[0m] [0m[32m- a number expression is of integer type[0m[0m
+[0m[[0minfo[0m] [0m[32m- true is of Boolean type[0m[0m
+[0m[[0minfo[0m] [0m[32m- false is of Boolean type[0m[0m
+[0m[[0minfo[0m] [0m[32m- a name that is not defined is of unknown type[0m[0m
+[0m[[0minfo[0m] [0m[32m- a block's type is the type of its final expression (val)[0m[0m
+[0m[[0minfo[0m] [0m[32m- a block's type is the type of its final expression[0m[0m
+[0m[[0minfo[0m] [0m[32m- a primitive addition is of integer type[0m[0m
+[0m[[0minfo[0m] [0m[32m- a primitive divide is of integer type[0m[0m
+[0m[[0minfo[0m] [0m[32m- a primitive multiplication is of integer type[0m[0m
+[0m[[0minfo[0m] [0m[32m- a primitive subtraction is of integer type[0m[0m
+[0m[[0minfo[0m] [0m[32m- a primitive less than is of Boolean type[0m[0m
+[0m[[0minfo[0m] [0m[32m- a primitive equality of integers is of Boolean type[0m[0m
+[0m[[0minfo[0m] [0m[32m- the type of a fun application is the fun result type[0m[0m
+[0m[[0minfo[0m] [0m[32m- a conditional expression's type is the type of its first branch - Int[0m[0m
+[0m[[0minfo[0m] [0m[32m- a conditional expression's type is the type of its first branch - Bool[0m[0m
+[0m[[0minfo[0m] [0m[32m- a conditional expression's type is the type of its first branch - Fun[0m[0m
+[0m[[0minfo[0m] [0m[32m- the left argument of an addition can't be a Boolean[0m[0m
+[0m[[0minfo[0m] [0m[32m- the right argument of an addition can't be a Boolean[0m[0m
+[0m[[0minfo[0m] [0m[32m- the left argument of a division can't be a Boolean[0m[0m
+[0m[[0minfo[0m] [0m[32m- the right argument of a division can't be a Boolean[0m[0m
+[0m[[0minfo[0m] [0m[32m- the left argument of a multiplication can't be a Boolean[0m[0m
+[0m[[0minfo[0m] [0m[32m- the right argument of a multiplication can't be a Boolean[0m[0m
+[0m[[0minfo[0m] [0m[32m- the left argument of a subtraction can't be a Boolean[0m[0m
+[0m[[0minfo[0m] [0m[32m- the right argument of a subtraction can't be a Boolean[0m[0m
+[0m[[0minfo[0m] [0m[32m- the left argument of an equality than can't be a Boolean[0m[0m
+[0m[[0minfo[0m] [0m[32m- the right argument of a equality can't be a Boolean[0m[0m
+[0m[[0minfo[0m] [0m[32m- cannot test equality of two Booleans[0m[0m
+[0m[[0minfo[0m] [0m[32m- the left argument of a less than can't be a Boolean[0m[0m
+[0m[[0minfo[0m] [0m[32m- the right argument of a less than can't be a Boolean[0m[0m
+[0m[[0minfo[0m] [0m[32m- the tested expression in a conditional can't be an integer[0m[0m
+[0m[[0minfo[0m] [0m[32m- the else expression in a conditional must have the same type as the then expression[0m[0m
+[0m[[0minfo[0m] [0m[32m- an applied expression must be a function[0m[0m
+[0m[[0minfo[0m] [0m[32m- the arguments in a fun application must match the function[0m[0m
+[0m[[0minfo[0m] [0m[32m- comparing funtype against int inside IF[0m[0m
+[0m[[0minfo[0m] [0m[32m- comparing two different funtypes inside IF[0m[0m
+[0m[[0minfo[0m] [0m[32m- comparing two identical funtypes inside IF[0m[0m
+[0m[[0minfo[0m] [0m[32m- declaring the same thing twice is an error[0m[0m
+[0m[[0minfo[0m] [0m[32m- backwards references do now work[0m[0m
+[0m[[0minfo[0m] [0m[32m- even with the recursion restrictions you can nest lets to get what you want[0m[0m
+[0m[[0minfo[0m] [0m[32m- pulling a variable from outside and using at the right type[0m[0m
+[0m[[0minfo[0m] [0m[32m- basic object[0m[0m
+[0m[[0minfo[0m] [0m[32m- basic object dereference[0m[0m
+[0m[[0minfo[0m] [0m[32m- object dereference that was failing in exec tests[0m[0m
+[0m[[0minfo[0m] [0m[32m- another basic object[0m[0m
+[0m[[0minfo[0m] [0m[32m- a bug I am pulling apart from exec tests[0m[0m
+[0m[[0minfo[0m] [0m[32m- comparing two different funypes[0m[0m
+[0m[[0minfo[0m] [0m[32m- comparing two different funypes (longer)[0m[0m
+[0m[[0minfo[0m] [0m[32m- types of parts must be correct[0m[0m

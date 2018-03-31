@@ -1,0 +1,18 @@
+run test/simple.fjs
+run test/function.fjs
+exit
+run test/function.hsl
+run test/function.fjs
+run test/tinywhere.fjs
+run test/function.fjs
+run test/transitivewhere.fjs
+run test/morewhere.fjs
+run
+run test/simple.fjs
+run
+run exectest.scala
+test
+run test/tinywhere.fjs
+run test/deref.fjs
+run
+run test/deref.fjs

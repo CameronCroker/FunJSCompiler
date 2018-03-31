@@ -1,0 +1,180 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuite hostname="Cameron-PC" name="funjs.SyntaxAnalysisTests" tests="85" errors="0" failures="0" time="0.055">
+                     <properties>
+      <property name="jline.esc.timeout" value="0"/><property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/><property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_101\bin"/><property name="java.vm.version" value="25.101-b13"/><property name="java.vm.vendor" value="Oracle Corporation"/><property name="java.vendor.url" value="http://java.oracle.com/"/><property name="path.separator" value=";"/><property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/><property name="file.encoding.pkg" value="sun.io"/><property name="user.country" value="AU"/><property name="user.script" value=""/><property name="sun.java.launcher" value="SUN_STANDARD"/><property name="sun.os.patch.level" value=""/><property name="java.vm.specification.name" value="Java Virtual Machine Specification"/><property name="user.dir" value="C:\Users\cameron\Downloads\funjs (4)\funjs"/><property name="java.runtime.version" value="1.8.0_101-b13"/><property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/><property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_101\lib\endorsed"/><property name="os.arch" value="amd64"/><property name="java.io.tmpdir" value="C:\Users\cameron\AppData\Local\Temp\"/><property name="line.separator" value="
+"/><property name="java.vm.specification.vendor" value="Oracle Corporation"/><property name="user.variant" value=""/><property name="os.name" value="Windows 10"/><property name="sun.jnu.encoding" value="Cp1252"/><property name="java.library.path" value="C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\TortoiseHg\;C:\Program Files (x86)\Skype\Phone\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\GTK2-Runtime\bin;C:\Program Files (x86)\sbt\\bin;%USERPROFILE%\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\MATLAB\R2016a\runtime\win64;C:\Program Files\MATLAB\R2016a\bin;C:\Program Files\MATLAB\R2016a\polyspace\bin;C:\Users\cameron\AppData\Local\Microsoft\WindowsApps;."/><property name="java.specification.name" value="Java Platform API Specification"/><property name="java.class.version" value="52.0"/><property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/><property name="os.version" value="10.0"/><property name="user.home" value="C:\Users\cameron"/><property name="user.timezone" value="Australia/Sydney"/><property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/><property name="file.encoding" value="Cp1252"/><property name="java.specification.version" value="1.8"/><property name="sbt.log.format" value="true"/><property name="java.class.path" value="C:\Program Files (x86)\sbt\bin\sbt-launch.jar"/><property name="user.name" value="cameron"/><property name="jline.shutdownhook" value="false"/><property name="java.vm.specification.version" value="1.8"/><property name="sun.java.command" value="xsbt.boot.Boot"/><property name="java.home" value="C:\Program Files\Java\jre1.8.0_101"/><property name="sun.arch.data.model" value="64"/><property name="user.language" value="en"/><property name="java.specification.vendor" value="Oracle Corporation"/><property name="awt.toolkit" value="sun.awt.windows.WToolkit"/><property name="java.vm.info" value="mixed mode"/><property name="java.version" value="1.8.0_101"/><property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_101\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/><property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_101\lib\resources.jar;C:\Program Files\Java\jre1.8.0_101\lib\rt.jar;C:\Program Files\Java\jre1.8.0_101\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_101\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_101\lib\jce.jar;C:\Program Files\Java\jre1.8.0_101\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_101\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_101\classes"/><property name="java.vendor" value="Oracle Corporation"/><property name="sun.stderr.encoding" value="cp850"/><property name="file.separator" value="\"/><property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/><property name="sun.io.unicode.encoding" value="UnicodeLittle"/><property name="sun.cpu.endian" value="little"/><property name="sun.stdout.encoding" value="cp850"/><property name="sun.desktop" value="windows"/><property name="sun.cpu.isalist" value="amd64"/>
+    </properties>
+                     <testcase classname="funjs.SyntaxAnalysisTests" name="parsing an identifier of oneter produces the correct tree" time="0.001">
+                                                 
+                                               </testcase><testcase classname="funjs.SyntaxAnalysisTests" name="parsing an identifier as an identifier produces the correct tree" time="0.0">
+                                                 
+                                               </testcase><testcase classname="funjs.SyntaxAnalysisTests" name="parsing an identifier containing digits and underscores produces the correct tree" time="0.0">
+                                                 
+                                               </testcase><testcase classname="funjs.SyntaxAnalysisTests" name="parsing an integer as an identifier gives an error" time="0.0">
+                                                 
+                                               </testcase><testcase classname="funjs.SyntaxAnalysisTests" name="parsing a non-identifier as an identifier gives an error (digit)" time="0.0">
+                                                 
+                                               </testcase><testcase classname="funjs.SyntaxAnalysisTests" name="parsing a non-identifier as an identifier gives an error (underscore)" time="0.0">
+                                                 
+                                               </testcase><testcase classname="funjs.SyntaxAnalysisTests" name="parsing a keyword as an identifier gives an error" time="0.001">
+                                                 
+                                               </testcase><testcase classname="funjs.SyntaxAnalysisTests" name="parsing a keyword prefix as an identifier produces the correct tree" time="0.0">
+                                                 
+                                               </testcase><testcase classname="funjs.SyntaxAnalysisTests" name="parsing an integer of one digit as an integer produces the correct tree" time="0.0">
+                                                 
+                                               </testcase><testcase classname="funjs.SyntaxAnalysisTests" name="parsing an integer as an integer produces the correct tree" time="0.0">
+                                                 
+                                               </testcase><testcase classname="funjs.SyntaxAnalysisTests" name="parsing a non-integer as an integer gives an error" time="0.0">
+                                                 
+                                               </testcase><testcase classname="funjs.SyntaxAnalysisTests" name="parsing an equal expression produces the correct tree" time="0.001">
+                                                 
+                                               </testcase><testcase classname="funjs.SyntaxAnalysisTests" name="parsing a less than expression produces the correct tree" time="0.0">
+                                                 
+                                               </testcase><testcase classname="funjs.SyntaxAnalysisTests" name="parsing an addition expression produces the correct tree" time="0.001">
+                                                 
+                                               </testcase><testcase classname="funjs.SyntaxAnalysisTests" name="parsing a subtraction expression produces the correct tree" time="0.0">
+                                                 
+                                               </testcase><testcase classname="funjs.SyntaxAnalysisTests" name="parsing a multiplication expression produces the correct tree" time="0.001">
+                                                 
+                                               </testcase><testcase classname="funjs.SyntaxAnalysisTests" name="parsing a division expression produces the correct tree" time="0.001">
+                                                 
+                                               </testcase><testcase classname="funjs.SyntaxAnalysisTests" name="parsing an integer expression produces the correct tree" time="0.0">
+                                                 
+                                               </testcase><testcase classname="funjs.SyntaxAnalysisTests" name="parsing a true expression produces the correct tree" time="0.0">
+                                                 
+                                               </testcase><testcase classname="funjs.SyntaxAnalysisTests" name="parsing a false expression produces the correct tree" time="0.0">
+                                                 
+                                               </testcase><testcase classname="funjs.SyntaxAnalysisTests" name="parsing an identifier expression produces the correct tree" time="0.0">
+                                                 
+                                               </testcase><testcase classname="funjs.SyntaxAnalysisTests" name="parsing a parenthesized expression produces the correct tree" time="0.001">
+                                                 
+                                               </testcase><testcase classname="funjs.SyntaxAnalysisTests" name="parsing an application expression produces the correct tree" time="0.003">
+                                                 
+                                               </testcase><testcase classname="funjs.SyntaxAnalysisTests" name="parsing an if expression produces the correct tree" time="0.001">
+                                                 
+                                               </testcase><testcase classname="funjs.SyntaxAnalysisTests" name="an if expression must have a parenthesized condition" time="0.0">
+                                                 
+                                               </testcase><testcase classname="funjs.SyntaxAnalysisTests" name="a value definition produces the correct tree" time="0.001">
+                                                 
+                                               </testcase><testcase classname="funjs.SyntaxAnalysisTests" name="a function definition produces the correct tree" time="0.001">
+                                                 
+                                               </testcase><testcase classname="funjs.SyntaxAnalysisTests" name="a function definition can have many args if they are in many lambdas" time="0.002">
+                                                 
+                                               </testcase><testcase classname="funjs.SyntaxAnalysisTests" name="a defn with no body is an error" time="0.001">
+                                                 
+                                               </testcase><testcase classname="funjs.SyntaxAnalysisTests" name="a defn without a type is an error" time="0.0">
+                                                 
+                                               </testcase><testcase classname="funjs.SyntaxAnalysisTests" name="a where block with no body gives an error" time="0.0">
+                                                 
+                                               </testcase><testcase classname="funjs.SyntaxAnalysisTests" name="a block with no definitions gives an error" time="0.001">
+                                                 
+                                               </testcase><testcase classname="funjs.SyntaxAnalysisTests" name="a where with a number for body" time="0.001">
+                                                 
+                                               </testcase><testcase classname="funjs.SyntaxAnalysisTests" name="a where with a variable for body" time="0.001">
+                                                 
+                                               </testcase><testcase classname="funjs.SyntaxAnalysisTests" name="a where with an application variable for body" time="0.002">
+                                                 
+                                               </testcase><testcase classname="funjs.SyntaxAnalysisTests" name="a where with a parenthisised variable for body" time="0.002">
+                                                 
+                                               </testcase><testcase classname="funjs.SyntaxAnalysisTests" name="a where with an arithmetic expression for body" time="0.001">
+                                                 
+                                               </testcase><testcase classname="funjs.SyntaxAnalysisTests" name="a where with a single definition produces the correct tree" time="0.001">
+                                                 
+                                               </testcase><testcase classname="funjs.SyntaxAnalysisTests" name="a where with a multiple definitions produces the correct tree" time="0.002">
+                                                 
+                                               </testcase><testcase classname="funjs.SyntaxAnalysisTests" name="object with one field" time="0.001">
+                                                 
+                                               </testcase><testcase classname="funjs.SyntaxAnalysisTests" name="object with more than one field" time="0.001">
+                                                 
+                                               </testcase><testcase classname="funjs.SyntaxAnalysisTests" name="object with object in it" time="0.001">
+                                                 
+                                               </testcase><testcase classname="funjs.SyntaxAnalysisTests" name="basic deref" time="0.0">
+                                                 
+                                               </testcase><testcase classname="funjs.SyntaxAnalysisTests" name="deref at one level only" time="0.0">
+                                                 
+                                               </testcase><testcase classname="funjs.SyntaxAnalysisTests" name="conditional expressions are right associative" time="0.0">
+                                                 
+                                               </testcase><testcase classname="funjs.SyntaxAnalysisTests" name="'==' is not associative with '=='" time="0.0">
+                                                 
+                                               </testcase><testcase classname="funjs.SyntaxAnalysisTests" name="'==' is not associative with '&lt;'" time="0.001">
+                                                 
+                                               </testcase><testcase classname="funjs.SyntaxAnalysisTests" name="'&lt;' is not associative with '&lt;'" time="0.001">
+                                                 
+                                               </testcase><testcase classname="funjs.SyntaxAnalysisTests" name="'&lt;' is not associative with '=='" time="0.001">
+                                                 
+                                               </testcase><testcase classname="funjs.SyntaxAnalysisTests" name="'+' is left associative" time="0.0">
+                                                 
+                                               </testcase><testcase classname="funjs.SyntaxAnalysisTests" name="'-' is left associative" time="0.0">
+                                                 
+                                               </testcase><testcase classname="funjs.SyntaxAnalysisTests" name="'*' is left associative" time="0.001">
+                                                 
+                                               </testcase><testcase classname="funjs.SyntaxAnalysisTests" name="'/' is left associative" time="0.001">
+                                                 
+                                               </testcase><testcase classname="funjs.SyntaxAnalysisTests" name="'if' has a lower precedence than '=='" time="0.001">
+                                                 
+                                               </testcase><testcase classname="funjs.SyntaxAnalysisTests" name="'if' has a lower precedence than '&lt;'" time="0.001">
+                                                 
+                                               </testcase><testcase classname="funjs.SyntaxAnalysisTests" name="'==' has a lower precedence than '+' (left)" time="0.001">
+                                                 
+                                               </testcase><testcase classname="funjs.SyntaxAnalysisTests" name="'==' has a lower precedence than '+' (right)" time="0.001">
+                                                 
+                                               </testcase><testcase classname="funjs.SyntaxAnalysisTests" name="'==' has a lower precedence than '-' (left)" time="0.0">
+                                                 
+                                               </testcase><testcase classname="funjs.SyntaxAnalysisTests" name="'==' has a lower precedence than '-' (right)" time="0.001">
+                                                 
+                                               </testcase><testcase classname="funjs.SyntaxAnalysisTests" name="'&lt;' has a lower precedence than '+' (left)" time="0.001">
+                                                 
+                                               </testcase><testcase classname="funjs.SyntaxAnalysisTests" name="'&lt;' has a lower precedence than '+' (right)" time="0.0">
+                                                 
+                                               </testcase><testcase classname="funjs.SyntaxAnalysisTests" name="'&lt;' has a lower precedence than '-' (left)" time="0.001">
+                                                 
+                                               </testcase><testcase classname="funjs.SyntaxAnalysisTests" name="'&lt;' has a lower precedence than '-' (right)" time="0.001">
+                                                 
+                                               </testcase><testcase classname="funjs.SyntaxAnalysisTests" name="'+' has a same precedence as '-'" time="0.0">
+                                                 
+                                               </testcase><testcase classname="funjs.SyntaxAnalysisTests" name="'-' has a same precedence as '+'" time="0.0">
+                                                 
+                                               </testcase><testcase classname="funjs.SyntaxAnalysisTests" name="'+' has a lower precedence than '*' (left)" time="0.001">
+                                                 
+                                               </testcase><testcase classname="funjs.SyntaxAnalysisTests" name="'+' has a lower precedence than '*' (right)" time="0.001">
+                                                 
+                                               </testcase><testcase classname="funjs.SyntaxAnalysisTests" name="'+' has a lower precedence than '/' (left)" time="0.0">
+                                                 
+                                               </testcase><testcase classname="funjs.SyntaxAnalysisTests" name="'+' has a lower precedence than '/' (right)" time="0.001">
+                                                 
+                                               </testcase><testcase classname="funjs.SyntaxAnalysisTests" name="'-' has a lower precedence than '*' (left)" time="0.001">
+                                                 
+                                               </testcase><testcase classname="funjs.SyntaxAnalysisTests" name="'-' has a lower precedence than '*' (right)" time="0.001">
+                                                 
+                                               </testcase><testcase classname="funjs.SyntaxAnalysisTests" name="'-' has a lower precedence than '/' (left)" time="0.0">
+                                                 
+                                               </testcase><testcase classname="funjs.SyntaxAnalysisTests" name="'-' has a lower precedence than '/' (right)" time="0.001">
+                                                 
+                                               </testcase><testcase classname="funjs.SyntaxAnalysisTests" name="parentheses override associativity" time="0.001">
+                                                 
+                                               </testcase><testcase classname="funjs.SyntaxAnalysisTests" name="parentheses override precedence (left)" time="0.001">
+                                                 
+                                               </testcase><testcase classname="funjs.SyntaxAnalysisTests" name="parentheses override precedence (right)" time="0.0">
+                                                 
+                                               </testcase><testcase classname="funjs.SyntaxAnalysisTests" name="'*' has a same precedence as '/'" time="0.001">
+                                                 
+                                               </testcase><testcase classname="funjs.SyntaxAnalysisTests" name="'/' has a same precedence as '*'" time="0.0">
+                                                 
+                                               </testcase><testcase classname="funjs.SyntaxAnalysisTests" name="parsing the int type produces the correct tree" time="0.0">
+                                                 
+                                               </testcase><testcase classname="funjs.SyntaxAnalysisTests" name="parsing the bool type produces the correct tree" time="0.0">
+                                                 
+                                               </testcase><testcase classname="funjs.SyntaxAnalysisTests" name="parsing a function type produces the correct tree" time="0.001">
+                                                 
+                                               </testcase><testcase classname="funjs.SyntaxAnalysisTests" name="function types are right associative" time="0.0">
+                                                 
+                                               </testcase><testcase classname="funjs.SyntaxAnalysisTests" name="parentheses can override associativity of function types" time="0.0">
+                                                 
+                                               </testcase><testcase classname="funjs.SyntaxAnalysisTests" name="a program can be a single expression" time="0.001">
+                                                 
+                                               </testcase><testcase classname="funjs.SyntaxAnalysisTests" name="a program can be more than one expression if the parser can find an application in there" time="0.001">
+                                                 
+                                               </testcase>
+                     <system-out></system-out>
+                     <system-err></system-err>
+                   </testsuite>

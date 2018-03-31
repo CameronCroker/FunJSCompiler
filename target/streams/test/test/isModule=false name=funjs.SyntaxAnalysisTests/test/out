@@ -1,0 +1,86 @@
+[0m[[0minfo[0m] [0m[32mSyntaxAnalysisTests:[0m[0m
+[0m[[0minfo[0m] [0m[32m- parsing an identifier of oneter produces the correct tree[0m[0m
+[0m[[0minfo[0m] [0m[32m- parsing an identifier as an identifier produces the correct tree[0m[0m
+[0m[[0minfo[0m] [0m[32m- parsing an identifier containing digits and underscores produces the correct tree[0m[0m
+[0m[[0minfo[0m] [0m[32m- parsing an integer as an identifier gives an error[0m[0m
+[0m[[0minfo[0m] [0m[32m- parsing a non-identifier as an identifier gives an error (digit)[0m[0m
+[0m[[0minfo[0m] [0m[32m- parsing a non-identifier as an identifier gives an error (underscore)[0m[0m
+[0m[[0minfo[0m] [0m[32m- parsing a keyword as an identifier gives an error[0m[0m
+[0m[[0minfo[0m] [0m[32m- parsing a keyword prefix as an identifier produces the correct tree[0m[0m
+[0m[[0minfo[0m] [0m[32m- parsing an integer of one digit as an integer produces the correct tree[0m[0m
+[0m[[0minfo[0m] [0m[32m- parsing an integer as an integer produces the correct tree[0m[0m
+[0m[[0minfo[0m] [0m[32m- parsing a non-integer as an integer gives an error[0m[0m
+[0m[[0minfo[0m] [0m[32m- parsing an equal expression produces the correct tree[0m[0m
+[0m[[0minfo[0m] [0m[32m- parsing a less than expression produces the correct tree[0m[0m
+[0m[[0minfo[0m] [0m[32m- parsing an addition expression produces the correct tree[0m[0m
+[0m[[0minfo[0m] [0m[32m- parsing a subtraction expression produces the correct tree[0m[0m
+[0m[[0minfo[0m] [0m[32m- parsing a multiplication expression produces the correct tree[0m[0m
+[0m[[0minfo[0m] [0m[32m- parsing a division expression produces the correct tree[0m[0m
+[0m[[0minfo[0m] [0m[32m- parsing an integer expression produces the correct tree[0m[0m
+[0m[[0minfo[0m] [0m[32m- parsing a true expression produces the correct tree[0m[0m
+[0m[[0minfo[0m] [0m[32m- parsing a false expression produces the correct tree[0m[0m
+[0m[[0minfo[0m] [0m[32m- parsing an identifier expression produces the correct tree[0m[0m
+[0m[[0minfo[0m] [0m[32m- parsing a parenthesized expression produces the correct tree[0m[0m
+[0m[[0minfo[0m] [0m[32m- parsing an application expression produces the correct tree[0m[0m
+[0m[[0minfo[0m] [0m[32m- parsing an if expression produces the correct tree[0m[0m
+[0m[[0minfo[0m] [0m[32m- an if expression must have a parenthesized condition[0m[0m
+[0m[[0minfo[0m] [0m[32m- a value definition produces the correct tree[0m[0m
+[0m[[0minfo[0m] [0m[32m- a function definition produces the correct tree[0m[0m
+[0m[[0minfo[0m] [0m[32m- a function definition can have many args if they are in many lambdas[0m[0m
+[0m[[0minfo[0m] [0m[32m- a defn with no body is an error[0m[0m
+[0m[[0minfo[0m] [0m[32m- a defn without a type is an error[0m[0m
+[0m[[0minfo[0m] [0m[32m- a where block with no body gives an error[0m[0m
+[0m[[0minfo[0m] [0m[32m- a block with no definitions gives an error[0m[0m
+[0m[[0minfo[0m] [0m[32m- a where with a number for body[0m[0m
+[0m[[0minfo[0m] [0m[32m- a where with a variable for body[0m[0m
+[0m[[0minfo[0m] [0m[32m- a where with an application variable for body[0m[0m
+[0m[[0minfo[0m] [0m[32m- a where with a parenthisised variable for body[0m[0m
+[0m[[0minfo[0m] [0m[32m- a where with an arithmetic expression for body[0m[0m
+[0m[[0minfo[0m] [0m[32m- a where with a single definition produces the correct tree[0m[0m
+[0m[[0minfo[0m] [0m[32m- a where with a multiple definitions produces the correct tree[0m[0m
+[0m[[0minfo[0m] [0m[32m- object with one field[0m[0m
+[0m[[0minfo[0m] [0m[32m- object with more than one field[0m[0m
+[0m[[0minfo[0m] [0m[32m- object with object in it[0m[0m
+[0m[[0minfo[0m] [0m[32m- basic deref[0m[0m
+[0m[[0minfo[0m] [0m[32m- deref at one level only[0m[0m
+[0m[[0minfo[0m] [0m[32m- conditional expressions are right associative[0m[0m
+[0m[[0minfo[0m] [0m[32m- '==' is not associative with '=='[0m[0m
+[0m[[0minfo[0m] [0m[32m- '==' is not associative with '<'[0m[0m
+[0m[[0minfo[0m] [0m[32m- '<' is not associative with '<'[0m[0m
+[0m[[0minfo[0m] [0m[32m- '<' is not associative with '=='[0m[0m
+[0m[[0minfo[0m] [0m[32m- '+' is left associative[0m[0m
+[0m[[0minfo[0m] [0m[32m- '-' is left associative[0m[0m
+[0m[[0minfo[0m] [0m[32m- '*' is left associative[0m[0m
+[0m[[0minfo[0m] [0m[32m- '/' is left associative[0m[0m
+[0m[[0minfo[0m] [0m[32m- 'if' has a lower precedence than '=='[0m[0m
+[0m[[0minfo[0m] [0m[32m- 'if' has a lower precedence than '<'[0m[0m
+[0m[[0minfo[0m] [0m[32m- '==' has a lower precedence than '+' (left)[0m[0m
+[0m[[0minfo[0m] [0m[32m- '==' has a lower precedence than '+' (right)[0m[0m
+[0m[[0minfo[0m] [0m[32m- '==' has a lower precedence than '-' (left)[0m[0m
+[0m[[0minfo[0m] [0m[32m- '==' has a lower precedence than '-' (right)[0m[0m
+[0m[[0minfo[0m] [0m[32m- '<' has a lower precedence than '+' (left)[0m[0m
+[0m[[0minfo[0m] [0m[32m- '<' has a lower precedence than '+' (right)[0m[0m
+[0m[[0minfo[0m] [0m[32m- '<' has a lower precedence than '-' (left)[0m[0m
+[0m[[0minfo[0m] [0m[32m- '<' has a lower precedence than '-' (right)[0m[0m
+[0m[[0minfo[0m] [0m[32m- '+' has a same precedence as '-'[0m[0m
+[0m[[0minfo[0m] [0m[32m- '-' has a same precedence as '+'[0m[0m
+[0m[[0minfo[0m] [0m[32m- '+' has a lower precedence than '*' (left)[0m[0m
+[0m[[0minfo[0m] [0m[32m- '+' has a lower precedence than '*' (right)[0m[0m
+[0m[[0minfo[0m] [0m[32m- '+' has a lower precedence than '/' (left)[0m[0m
+[0m[[0minfo[0m] [0m[32m- '+' has a lower precedence than '/' (right)[0m[0m
+[0m[[0minfo[0m] [0m[32m- '-' has a lower precedence than '*' (left)[0m[0m
+[0m[[0minfo[0m] [0m[32m- '-' has a lower precedence than '*' (right)[0m[0m
+[0m[[0minfo[0m] [0m[32m- '-' has a lower precedence than '/' (left)[0m[0m
+[0m[[0minfo[0m] [0m[32m- '-' has a lower precedence than '/' (right)[0m[0m
+[0m[[0minfo[0m] [0m[32m- parentheses override associativity[0m[0m
+[0m[[0minfo[0m] [0m[32m- parentheses override precedence (left)[0m[0m
+[0m[[0minfo[0m] [0m[32m- parentheses override precedence (right)[0m[0m
+[0m[[0minfo[0m] [0m[32m- '*' has a same precedence as '/'[0m[0m
+[0m[[0minfo[0m] [0m[32m- '/' has a same precedence as '*'[0m[0m
+[0m[[0minfo[0m] [0m[32m- parsing the int type produces the correct tree[0m[0m
+[0m[[0minfo[0m] [0m[32m- parsing the bool type produces the correct tree[0m[0m
+[0m[[0minfo[0m] [0m[32m- parsing a function type produces the correct tree[0m[0m
+[0m[[0minfo[0m] [0m[32m- function types are right associative[0m[0m
+[0m[[0minfo[0m] [0m[32m- parentheses can override associativity of function types[0m[0m
+[0m[[0minfo[0m] [0m[32m- a program can be a single expression[0m[0m
+[0m[[0minfo[0m] [0m[32m- a program can be more than one expression if the parser can find an application in there[0m[0m
